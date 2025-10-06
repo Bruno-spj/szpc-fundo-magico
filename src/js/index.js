@@ -28,7 +28,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     try {
       const response = await fetch(
-        "https://brunospj.app.n8n.cloud/webhook/gerador-fundo",
+        "https://brunospj.app.n8n.cloud/webhook/gerar-fundo",
         {
           method: "POST",
           headers: {
